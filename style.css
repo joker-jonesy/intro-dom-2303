@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: blue;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile{
+    height: 200px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: cyan;
+}
+
+@media (min-width: 600px) {
+    .profile{
+        width: 50%;
+    }
+}
+
+@media (min-width: 960px) {
+    .profile{
+        width: 33.33%;
+    }
+}
